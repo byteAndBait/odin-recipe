@@ -1,9 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
-
-.section{
-    background-color: #FF9D23;
-    text-align: center;
-    font-size: 32px;
-    color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+IN:wght@100..400&display=swap');
+a{
+    color:white;
+    background:#d54215;
+    font-size: 18px;
+    padding: 5px 10px;
+    position: fixed;
+    margin-left: 90%; 
+}
+.sectionTitle{
+    border-bottom: solid 1px #d54215;
     font-family: "Playwrite IN", serif;
+    width: min-content;
+}
+h1{
+    font-family: "Oswald", serif;
+}
+
+img{
+    border: solid black 1px;
+}
+p{
+    background:#e5e5e5;
+    padding: 10px;
+    border-top: solid 5px #e7ab46;
+}
+ol li{
+    margin: 10px 0;
+    font-size: 20px;
+}
+ol li:first-letter{
+    color: #d54215;
 }
